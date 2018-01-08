@@ -1,20 +1,21 @@
-var a,
-	h,
+var
 	variable1,
 	variable2,
 	variable3;
 
+
+
 function getTriangleArea(a, h) {
 	
 	if (a<=0 || h<=0){
-		console.log('Nieprawidłowe dane');}
+		
+		return "nieprawidłowe dane";
+	}
 	else {
 		return a*h/2;
 	}
 	
 }
-
-console.log(getTriangleArea(4, 0));
 
 variable1 = getTriangleArea(16,5);
 
